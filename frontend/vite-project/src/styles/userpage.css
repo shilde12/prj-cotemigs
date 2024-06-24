@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  transition: 0.3s;
+}
+
+#logout {
+  width: 50%;
+  height: auto;
+}
+
+#enter {
+  width: 10%;
+  height: auto;
+}
+
+#signImg {
+  width: 5%;
+  height: auto;
+}
+
+.SairButton {
+  border: none;
+  color: white;
+  padding: 0.75rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+  border-radius: 1rem;
+
+  &:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+}
+.CadastrarChurchButton {
+  background-color: rgb(76, 175, 80);
+  border: none;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.CadastrarChurchButton:hover {
+  font-weight: 900;
+  background-color: white;
+  cursor: pointer;
+}
+
+.EnterChurchButton {
+  background-color: rgb(33, 150, 243);
+  border: none;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.EnterChurchButton:hover {
+  background-color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#MainUserPage {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#FirstSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#FirstSection > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
